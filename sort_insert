@@ -1,0 +1,18 @@
+
+function sort_insert(a){
+  for(var i=0;i<a.length-1;i++)
+	{
+		min = i
+		for(var j=i+1;j<a.length;j++) 
+		{
+			if (a[min]>a[j])
+			    {
+				  min = j
+				}
+		}
+		tmp = a[i]
+		a[i] = a[min]
+		a[min] = tmp
+	}
+	return a
+}

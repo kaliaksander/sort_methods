@@ -1,19 +1,19 @@
 // selection sort
-function selection_sort(a){
-  for(var i=0;i<a.length-1;i++)
+function selection_sort(unsortedList){
+  for(var i=0;i<unsortedList.length-1;i++)
 	{
 		min = i
-		for(var j=i+1;j<a.length;j++) 
+		for(var j=i+1;j<unsortedList.length;j++) 
 		{
-			if (a[min]>a[j])
+			if (unsortedList[min]>unsortedList[j])
 			    {
 				  min = j
 				}
 		}
-		tmp = a[i]
-		a[i] = a[min]
-		a[min] = tmp
+		tmp = unsortedList[i]
+		unsortedList[i] = unsortedList[min]
+		unsortedList[min] = tmp
 	}
-	return a
+	return unsortedList
 }
 //end

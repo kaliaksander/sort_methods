@@ -1,4 +1,4 @@
-
+//sort insert
 function sort_insert(a){
   for(var i=0;i<a.length-1;i++)
 	{

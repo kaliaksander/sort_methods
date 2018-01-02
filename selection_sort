@@ -1,5 +1,5 @@
 // selection sort
-function sort_insert(a){
+function selection_sort(a){
   for(var i=0;i<a.length-1;i++)
 	{
 		min = i

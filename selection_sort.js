@@ -1,4 +1,4 @@
-// selection sort
+// selection sort - increasing order
 function selection_sort(unsortedList){
   for(var i=0;i<unsortedList.length-1;i++)
 	{

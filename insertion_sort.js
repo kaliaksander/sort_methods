@@ -1,3 +1,4 @@
+//insertion sort - increasing order
 function insertionSort(unsortedList) {  
     var len = unsortedList.length;
     for (var i = 1; i < len; i++) {

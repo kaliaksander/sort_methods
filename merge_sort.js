@@ -1,6 +1,7 @@
 function merge_sort(left_part,right_part) 
 {
 	var i = 0;
+//merge sort	
 	var j = 0;
 	var results = [];
 
